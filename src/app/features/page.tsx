@@ -92,7 +92,7 @@ export default function FeaturesPage() {
             }}
             >
               <Box sx={{ mr: 2 }}>
-                <img style={{ width: "64px" }} src="/images/features/Business.svg" alt="business-img" />
+                <img style={{ width: "64px" }} src="/images/Business.svg" alt="business-img" />
               </Box>
               <Box>
                 <Typography

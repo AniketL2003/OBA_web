@@ -5,22 +5,22 @@ import Image from "next/image";
 
 const values = [
   {
-    icon: "/images/aboutimg/InnvoFirst.svg",
+    icon: "/images/InnvoFirst.svg",
     title: "Innovation First",
     desc: "We constantly push boundaries to deliver cutting-edge solutions that transform how businesses operate.",
   },
   {
-    icon: "/images/aboutimg/CustObbess.svg",
+    icon: "/images/CustObbess.svg",
     title: "Customer Obsessed",
     desc: "Your success drives everything we do. We’re committed to delivering exceptional value and support.",
   },
   {
-    icon: "/images/aboutimg/Trust.svg",
+    icon: "/images/Trust.svg",
     title: "Trust & Integrity",
     desc: "Building lasting relationships through transparency, security, and ethical business practices.",
   },
   {
-    icon: "/images/aboutimg/MoveFast.svg",
+    icon: "/images/MoveFast.svg",
     title: "Move Fast",
     desc: "Rapid iteration and continuous improvement to stay ahead in a dynamic market landscape.",
   },

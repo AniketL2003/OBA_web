@@ -9,32 +9,32 @@
     {
       title: "Order Creation",
       description: "Create your orders with ease and handle them smartly.",
-      icon: "/images/features/OrderCreationIcon.svg",
+      icon: "/images/OrderCreationIcon.svg",
     },
     {
       title: "Notifications",
       description: "Deliver messages, email, and SMS into your order flow.",
-      icon: "/images/features/Notifications.svg",
+      icon: "/images/Notifications.svg",
     },
     {
       title: "Order Processing",
       description: "Handle order processing from inventory to delivery.",
-      icon: "/images/features/Processing.svg",
+      icon: "/images/Processing.svg",
     },
     {
       title: "Invoice Generation",
       description: "Generate your order invoice easily and manage them.",
-      icon: "/images/features/Invoice.svg",
+      icon: "/images/Invoice.svg",
     },
     {
       title: "Analytics",
       description: "Manage your insights with ease and data with efficiency.",
-      icon: "/images/features/Analytics.svg",
+      icon: "/images/Analytics.svg",
     },
     {
       title: "Delivery",
       description: "Deliver orders in real-time with comprehensive status updates and notifications.",
-      icon: "/images/features/Delivery.svg",
+      icon: "/images/Delivery.svg",
     },
   ];
 

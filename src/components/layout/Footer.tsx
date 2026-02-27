@@ -11,6 +11,7 @@ import { useRouter } from "next/navigation";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
+import Grid2 from "@mui/material/Unstable_Grid2";
 
 export function Footer() {
   const router = useRouter();
@@ -65,6 +66,7 @@ export function Footer() {
                 height: "37%",
                 objectFit: "contain",
                 display: "block",
+                maxHeight: "50px",
               }}
             />
             <Typography

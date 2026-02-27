@@ -25,6 +25,7 @@ export function CoreFeatures() {
             },
             gap: { xs: 3, md: 4 },
             mt: { xs: 4, md: 6 },
+            py: { xs: 2, md: 0 },
           }}
         >
           {coreFeatures.map((feature, index) => (

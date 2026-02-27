@@ -6,11 +6,11 @@ import Image from "next/image";
 import { fadeInUp } from "@/src/animations/fade";
 
 interface FeatureCardProps {
-  icon: string; // image path now
+  icon: string;
   title: string;
   description: string;
   index?: number;
-} 
+}
 
 export function FeatureCard({
   icon,
@@ -35,41 +35,54 @@ export function FeatureCard({
           border: "1px solid #E2E8F0",
           boxShadow: "none",
           display: "flex",
-          backgroundColor:"#fff",
-          // flexDirection: "column",
-          // alignItems: { xs: "center", sm: "flex-start" },
-          // textAlign: { xs: "center", sm: "left" },
+          alignItems: "flex-start",
+          gap: "16px", // ⭐ THIS FIXES SPACING
+          backgroundColor: "#fff",
+          transition: "all 0.25s ease",
+
+          "&:hover": {
+            boxShadow: "0 8px 24px rgba(16,24,40,0.08)",
+            transform: "translateY(-2px)",
+          },
         }}
       >
-        {/* ICON IMAGE */}
+        {/* ICON */}
         <Box
           sx={{
-            width: 48,
+            minWidth: 48,
             height: 48,
             borderRadius: "12px",
             backgroundColor: "#FFF2E6",
             display: "flex",
-            justifyContent: "space-between",
+            justifyContent: "center", // ⭐ FIX
             alignItems: "center",
-            mb: 2,
           }}
         >
-          {icon.startsWith("/") ? (
-            <Image src={icon} alt={title} width={28} height={28} />
-          ) : (
-            <Typography fontSize={24}>{icon}</Typography>
-          )}
+          <Image src={icon} alt={title} width={24} height={24} />
         </Box>
 
-
+        {/* TEXT */}
         <Box>
-          <Typography sx={{ fontSize: 16, fontWeight: 600, mb: 1 }}>
-          {title}
-        </Typography>
+          <Typography
+            sx={{
+              fontSize: "18px",
+              fontWeight: 600,
+              mb: "6px",
+              color: "#0F172A",
+            }}
+          >
+            {title}
+          </Typography>
 
-        <Typography sx={{ fontSize: 14, color: "#64748B", lineHeight: 1.7 }}>
-          {description}
-        </Typography>
+          <Typography
+            sx={{
+              fontSize: "15px",
+              color: "#64748B",
+              lineHeight: 1.6,
+            }}
+          >
+            {description}
+          </Typography>
         </Box>
       </Card>
     </motion.div>

@@ -5,17 +5,17 @@ import Image from "next/image";
 
 const approach = [
   {
-    icon: "/images/aboutimg/CustObbess.svg",
+    icon: "/images/CustObbess.svg",
     title: "User-Centric Design",
     desc: "Every feature is designed with real user needs in mind, ensuring intuitive and delightful experiences.",
   },
   {
-    icon: "/images/aboutimg/Insights.svg",
+    icon: "/images/Insights.svg",
     title: "Data-Driven Decisions",
     desc: "We leverage analytics and user feedback to continuously improve and innovate our platform.",
   },
   {
-    icon: "/images/aboutimg/FastDev.svg",
+    icon: "/images/FastDev.svg",
     title: "Fast Development",
     desc: "Rapid iteration cycles allow us to ship new features and improvements every week.",
   },

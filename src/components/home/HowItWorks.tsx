@@ -12,28 +12,28 @@ const steps = [
     title: "Quick Setup",
     description:
       "Configure your store settings, delivery zones, and product packing workflows.",
-    icon: "/images/HowItWorks/Setup.svg",
+    icon: "/images/Setup.svg",
   },
   {
     number: 2,
     title: "Start Processing",
     description:
       "Orders flow in automatically with real-time notifications and status updates.",
-    icon: "/images/HowItWorks/StartP.svg",
+    icon: "/images/StartP.svg",
   },
   {
     number: 3,
     title: "Data Insights",
     description:
       "Track performance with the dashboard and exclusive analytics.",
-    icon: "/images/HowItWorks/Insights.svg",
+    icon: "/images/Insights.svg",
   },
   {
     number: 4,
     title: "Scale & Grow",
     description:
       "Expand your orders confidently with automated workflows and insights.",
-    icon: "/images/HowItWorks/Scale.svg",
+    icon: "/images/Scale.svg",
   },
 ];
 
