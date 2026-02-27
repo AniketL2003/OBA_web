@@ -1,0 +1,11 @@
+/* styles/global.css */
+
+:root ::selection {
+  background-color: #ffcc00 !important;
+  color: #000000 !important;
+}
+
+:root ::-moz-selection {
+  background-color: #ffcc00 !important;
+  color: #000000 !important;
+}
